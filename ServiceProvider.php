@@ -9,7 +9,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 
     public function register()
     {
-        require_once app_path().'/macros/form.php';
+        require_once __DIR__.'/macros/form.php';
         // registra os widgets
         Widget::register(
             'languageMenu',
