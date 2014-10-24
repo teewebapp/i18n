@@ -3,7 +3,7 @@
 namespace Tee\I18n;
 
 use Widgets\LanguageMenu;
-use Widget;
+use Tee\System\Widget;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 
