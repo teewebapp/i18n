@@ -6,7 +6,7 @@ use Tee\System\Tests\TestCase;
 
 class InitializeTest extends TestCase {
 
-    public function testSomethingIsTrue()
+    public function testModuleEnabled()
     {
         $this->assertTrue(\moduleEnabled('i18n'));
         $this->assertTrue(\moduleEnabled('system'));

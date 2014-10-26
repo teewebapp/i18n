@@ -5,7 +5,7 @@ use Route, Request, Config, App, Redirect;
 
 $locale = Request::segment(1);
 
-if (in_array($locale, Config::get('app.locales'))) {
+if (Config::get('app.locales') && in_array($locale, Config::get('app.locales'))) {
     App::setLocale($locale);
 } else {
     $locale = null;
