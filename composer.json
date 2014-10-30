@@ -8,7 +8,11 @@
 	},
 	"autoload": {
 		"classmap": [
-			"."
+			"commands",
+			"controllers",
+			"tests",
+			"widgets",
+			"ServiceProvider.php"
 		]
 	},
 	"minimum-stability": "stable"
