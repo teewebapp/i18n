@@ -8,7 +8,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Tee\\I18n": "."
+			"Tee\\I18n\\": "."
         	}
 	},
 	"minimum-stability": "stable"
